@@ -15,35 +15,61 @@
 
 
 
+# Objetivo General
+
+El objetivo general de este proyecto es comprender y aplicar los conceptos de complejidad y eficiencia de algoritmos en Java.
+
+# Objetivos Específicos
+
+- Comprender las diferentes notaciones de complejidad (O(1), O(n), O(n^2), O(log n), O(n log n)).
+- Implementar algoritmos con diferentes complejidades para demostrar su eficiencia.
+- Analizar y explicar el rendimiento de los algoritmos implementados.
 
 
+# Marco Teorico
+
+## **1. Teoría de Complejidad**
+
+### 1.1 La teoría de la complejidad
+
+La teoría de la complejidad es una rama de la informática que se ocupa de estudiar la eficiencia de los algoritmos y la complejidad de los problemas computacionales. 
+
+### 1.2 Importancia de la Complejidad
+
+La complejidad es un concepto fundamental en la informática, ya que permite evaluar la eficiencia de los algoritmos y la eficiencia de los problemas computacionales. 
+
+### 1.3 Eficiencia de algoritmos
+La eficiencia se evalúa mediante dos dimensiones principales:
+
+1. **Coste temporal:**
+
+Se refiere al tiempo de ejecución del algoritmo, medido generalmente en número de operaciones elementales en lugar de segundos exactos
+
+2. **Coste espacial:**
+
+Se refiere a la cantidad de memoria (espacio de almacenamiento) que el algoritmo necesita durante su ejecución[cite: 13, 18].
+
+### 1.4 Factores de tiempo de ejecución
+El tiempo real que tarda un algoritmo depende de diversos factores:
+
+**Factores propios:** Relacionados con el diseño del algoritmo y las estructuras de datos utilizadas
+
+**Factores circunstanciales:** Dependen del entorno de ejecución, como el hardware, el compilador, el sistema operativo y la carga del sistema
+
+**Análisis teórico:** Evaluación matemática "a priori" del algoritmo usando notación asintótica, independiente del hardware
+
+**Análisis experimental:** Medición "a posteriori" del tiempo de ejecución real con diferentes entradas de datos
 
 
+### 1.5 Notacion de complejidad
 
+Se utiliza para describir el comportamiento del algoritmo cuando la entrada tiende a infinito:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Notación Big O ($O$):** Representa la cota superior o el peor escenario de ejecución.
+* **Mejor caso:** Escenario donde el algoritmo realiza el mínimo de pasos.
+* **Peor caso:** Escenario donde el algoritmo realiza el máximo de pasos (el que representa Big O).
+* **Caso promedio:** El comportamiento esperado con una entrada típica.
+* **Big O ($O$), Omega ($\Omega$), Theta ($\Theta$):** Describen cotas superiores, inferiores y ajustadas respectivamente.
 
 
 ## **2. Ejemplos de Complejidad en Java**
@@ -144,4 +170,13 @@ Pero tengo un favorito, lo que mas me gusto del trabajo fue que pude entender a 
 ayuda a que quizas un millon de datos , se procese de manera corta con tan solo 20 iteraciones usando matematica.  Recuerdo tambien que existia un metodo de "Divide y Venceras",
 el cual era realmente esto , grandes partes dividirlas en pequeñas partes por las que se completan de manera demasiado rapida.
 Fue muy importante porque me permitio conocer sobre como un algoritmo es correcto, ademas de comprendes las diferentes notaciones para cada complejidad.
+
 **Martin Amaya**:
+Y como comcluiusion, adicional a lo qie se investigo y averiguo sobre este tema, nos hizo destacar fue al implementar las clases fue visaulizar la potencia de la complejidad
+Logaritmica  ($O(\log n)$)5. Resulta sorprendente ver como una pequena modificacion en la estructura del bucle. Esto permite al algoritmo evitar pasos y procesar datos masivos en una
+cantidad de tiempo mmucho mas inferior a la de un enfoque lineal.
+Por otra parte, se aprendio de la parte teorica que la programacion eficiente va mas alla de que un simple codigo compile sin errores. Se comprendio la importancia de realizar un analisis
+utilizando la notacion Big O.Se permite predecir si el software sera escalable y soportara una carga real de usuarios antes de invertir tiempo en su desarrllo final.
+Por ultimo, se avisto que la complejidad cuadratica ($O(n^2)$), se podria decir que es la menos eficiente de las anteriormente revisadas. Esto se debe a que tiene un ciclo dentro de otro.
+Esto provoca que el trabajo se multiplique drasticamente. Si se duplica la cantidad de datos, el tiempo de espera incrementa exponencialmente. Esto da a entender que no es una solucion viable
+para el manejo de grandes volumenes de informacion.

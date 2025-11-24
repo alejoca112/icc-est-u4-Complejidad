@@ -1,7 +1,7 @@
 # INFORME DE INVESTIGACION
 
 
-LOGO CARRERA
+![LOGO CARRERA](assets/ups-icc.png)
 
 
 ### *Asignatura:* Estructura de Datos

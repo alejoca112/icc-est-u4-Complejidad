@@ -1,3 +1,51 @@
+# INFORME DE INVESTIGACION
+
+
+LOGO CARRERA
+
+
+### *Asignatura:* Estructura de Datos
+
+### *Tema:* Proyecto de Complejidad y Eficiencia de Algoritmos
+
+
+# Integrantes:
+- Renato Martín Amaya Siguenza - https://github.com/MartinAmaya12
+- Geovanny Alejandro Cabrera Tapia - https://github.com/alejoca112
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## **2. Ejemplos de Complejidad en Java**
 
 En esta sección se presentan las clases creadas dentro del proyecto y el análisis correspondiente a cada una.
